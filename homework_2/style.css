@@ -38,19 +38,7 @@
     color: #fff;
 }
 
-/* use js меню */
-.navbar .sticky {
-    padding: 15px 0;
-    background: crimson;
-}
-.navbar .sticky .logo a span {
-    color: #fff;
-    transition: all 0.3s ease;
-}
-.navbar .sticky .menu li a:hover {
-    color: #fff;
-}
-/* ... меню */
+/* menu */
 
 .navbar .logo a span {
     color: black;
@@ -75,7 +63,7 @@
     display: flex;
     background: url('img/9E1B0958.jpg') no-repeat center; 
     /* background: #111; */
-    height: 60vh;
+    height: 85vh;
     color: #fff;
     min-width: 500px;
     font-family: 'Ubuntu', sans-serif;

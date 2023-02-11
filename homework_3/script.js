@@ -1,13 +1,17 @@
-
-let name = prompt('Введите Ваше имя?', '')
-alert(`${name}`);
-let userName = `${name}`
-function showMessage() {
-    let message = `Здравствуйте, ${userName}!`;
-    alert(message);
+function hello() {
+    let name = prompt('Введите Ваше имя?')
+    if (name == null || name == "")
+    {
+        alert(`Ваше право быть анонимным.`);
+    }
+    else
+    {
+        alert(`Здравствуйте, ${name}!`);
+    }
 }
-showMessage();
-
     
-
+window.addEventListener('load', function(event) {
+    hello();
+});
+    
 

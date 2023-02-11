@@ -7,6 +7,11 @@
     text-decoration: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+
 .navbar {
     position: fixed;
     width: 100%;
@@ -148,7 +153,7 @@ section .title::after {
     object-fit: cover;
     border-radius: 6px;
 }
-.about .about-content, .skills .skills-content, .contact .contact-content {
+.about .about-content, .skills .skills-content, .contact .contact-content, .footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -305,6 +310,23 @@ section .title::after {
 }
 
 
+footer {
+    background: #111;
+    padding: 20px 23px;
+    color: #fff;
+    text-align: center;
+}
+footer span a {
+    color: crimson;
+    text-decoration: none;
+}
+footer span a:hover {
+    text-decoration: underline;
+}
+
+
+
+
 @media (max-width: 1300px) {
     .home .max-width {
         margin-left: 0;
@@ -381,6 +403,9 @@ section .title::after {
     .skills .skills-content .column {
         width: 100%;
         margin-bottom: 35px;
+    }
+    .contact .contact-content .column {
+        width: 100%;
     }
 }
 @media (max-width: 690px) {
